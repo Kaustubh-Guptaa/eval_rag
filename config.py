@@ -19,4 +19,4 @@ COLLECTION_NAME = "filings"
 
 # Embedding and Chat Models
 EMBEDDING_MODEL = "text-embedding-3-small"
-CHAT_MODEL = "gpt-4o-mini"
+CHAT_MODEL = "gpt-4o-mini-2024-07-18"
