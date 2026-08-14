@@ -1,7 +1,9 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # reads the .env.secrets file
+# create a secrets file with your own values, then rename it to .env.secrets
+# reads the .env.secrets file
+load_dotenv(".env.secrets")
 
 # SEC requires a real name + email in the User-Agent header, otherwise
 # every request comes back as a 403
