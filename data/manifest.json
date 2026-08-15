@@ -1,0 +1,98 @@
+[
+  {
+    "ticker": "AAPL",
+    "company": "Apple Inc.",
+    "cik": "0000320193",
+    "accession": "0000320193-25-000079",
+    "filing_date": "2025-10-31",
+    "report_date": "2025-09-27",
+    "fiscal_year": 2025,
+    "primary_document": "aapl-20250927.htm",
+    "path": "data\\raw\\AAPL\\0000320193-25-000079\\aapl-20250927.htm",
+    "status": "indexed"
+  },
+  {
+    "ticker": "MSFT",
+    "company": "MICROSOFT CORP",
+    "cik": "0000789019",
+    "accession": "0001193125-26-323660",
+    "filing_date": "2026-07-29",
+    "report_date": "2026-06-30",
+    "fiscal_year": 2026,
+    "primary_document": "msft-20260630.htm",
+    "path": "data\\raw\\MSFT\\0001193125-26-323660\\msft-20260630.htm",
+    "status": "indexed"
+  },
+  {
+    "ticker": "NVDA",
+    "company": "NVIDIA CORP",
+    "cik": "0001045810",
+    "accession": "0001045810-26-000021",
+    "filing_date": "2026-02-25",
+    "report_date": "2026-01-25",
+    "fiscal_year": 2026,
+    "primary_document": "nvda-20260125.htm",
+    "path": "data\\raw\\NVDA\\0001045810-26-000021\\nvda-20260125.htm",
+    "status": "indexed"
+  },
+  {
+    "ticker": "AMZN",
+    "company": "AMAZON COM INC",
+    "cik": "0001018724",
+    "accession": "0001018724-26-000004",
+    "filing_date": "2026-02-06",
+    "report_date": "2025-12-31",
+    "fiscal_year": 2025,
+    "primary_document": "amzn-20251231.htm",
+    "path": "data\\raw\\AMZN\\0001018724-26-000004\\amzn-20251231.htm",
+    "status": "indexed"
+  },
+  {
+    "ticker": "GOOGL",
+    "company": "Alphabet Inc.",
+    "cik": "0001652044",
+    "accession": "0001652044-26-000018",
+    "filing_date": "2026-02-05",
+    "report_date": "2025-12-31",
+    "fiscal_year": 2025,
+    "primary_document": "goog-20251231.htm",
+    "path": "data\\raw\\GOOGL\\0001652044-26-000018\\goog-20251231.htm",
+    "status": "indexed"
+  },
+  {
+    "ticker": "META",
+    "company": "Meta Platforms, Inc.",
+    "cik": "0001326801",
+    "accession": "0001628280-26-003942",
+    "filing_date": "2026-01-29",
+    "report_date": "2025-12-31",
+    "fiscal_year": 2025,
+    "primary_document": "meta-20251231.htm",
+    "path": "data\\raw\\META\\0001628280-26-003942\\meta-20251231.htm",
+    "status": "indexed"
+  },
+  {
+    "ticker": "TSLA",
+    "company": "Tesla, Inc.",
+    "cik": "0001318605",
+    "accession": "0001628280-26-003952",
+    "filing_date": "2026-01-29",
+    "report_date": "2025-12-31",
+    "fiscal_year": 2025,
+    "primary_document": "tsla-20251231.htm",
+    "path": "data\\raw\\TSLA\\0001628280-26-003952\\tsla-20251231.htm",
+    "status": "indexed"
+  },
+  {
+    "ticker": "JPM",
+    "company": "JPMORGAN CHASE & CO",
+    "cik": "0000019617",
+    "accession": "0001628280-26-008131",
+    "filing_date": "2026-02-13",
+    "report_date": "2025-12-31",
+    "fiscal_year": 2025,
+    "primary_document": "jpm-20251231.htm",
+    "path": "data\\raw\\JPM\\0001628280-26-008131\\jpm-20251231.htm",
+    "status": "indexed"
+  }
+]
