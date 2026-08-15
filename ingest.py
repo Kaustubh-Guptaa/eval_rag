@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     # step 2 + 3: parse, chunk, and embed each filing into Chroma (Vector DB)
     splitter = RecursiveCharacterTextSplitter(
-        separators=["\n\n", "\n", ". ", " ", ""], 
+        separators = ["\n\n", "\n", ". ", ".", " ", ""], 
         chunk_size = 1000, 
         chunk_overlap = 150
     )
