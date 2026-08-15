@@ -1,0 +1,34 @@
+[
+  {
+    "question": "What are Apple's main product categories?",
+    "reference": "Apple's main products are iPhone, Mac, iPad and wearables like Apple Watch and AirPods, plus a services business that includes the App Store, iCloud, Apple Music and advertising."
+  },
+  {
+    "question": "What are Microsoft's reportable business segments?",
+    "reference": "Microsoft reports three segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing."
+  },
+  {
+    "question": "What supply chain risks does NVIDIA mention in its filing?",
+    "reference": "NVIDIA does not manufacture its own chips and relies on third-party foundries like TSMC, so it flags risks around dependence on a small number of suppliers, capacity constraints, and geopolitical tension involving Taiwan."
+  },
+  {
+    "question": "How does Amazon describe its business segments?",
+    "reference": "Amazon operates in three segments: North America, International, and Amazon Web Services (AWS)."
+  },
+  {
+    "question": "What does Tesla say about competition in the electric vehicle market?",
+    "reference": "Tesla says the EV market has become highly competitive, with both established automakers and newer entrants releasing electric vehicles, and it competes on technology, price, performance and charging infrastructure."
+  },
+  {
+    "question": "Where does most of Alphabet's revenue come from?",
+    "reference": "Most of Alphabet's revenue comes from advertising, mainly on Google Search and YouTube, with growing revenue from Google Cloud and subscription products."
+  },
+  {
+    "question": "What legal and regulatory risks does Meta discuss?",
+    "reference": "Meta discusses privacy regulation such as GDPR, antitrust scrutiny, laws around content moderation, and ongoing lawsuits and government investigations as significant risks to its business."
+  },
+  {
+    "question": "What are JPMorgan's main lines of business?",
+    "reference": "JPMorgan operates through segments including Consumer and Community Banking, the Commercial and Investment Bank, and Asset and Wealth Management."
+  }
+]
