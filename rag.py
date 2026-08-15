@@ -1,10 +1,3 @@
-# rag.py - the actual question answering part, built with LangChain
-#
-# The flow: embed the question -> pull the 4 most similar chunks from
-# Chroma -> stuff them into a prompt -> ask the model -> return the answer.
-
-import sys
-
 from langchain_chroma import Chroma
 from langchain_core.output_parsers.string import StrOutputParser
 from langchain_core.prompts import PromptTemplate
@@ -21,7 +14,7 @@ db = Chroma(
     persist_directory=config.CHROMA_DIR,
 )
 
-retriever = db.as_retriever(search_kwargs={"k": 4})
+retriever = db.as_retriever(search_kwargs={"k": 4}) # k nearest neighbors to retrieve
 
 # defining LLM's answering boundary
 # explicitly instructing to say "I don't know" when the question is out of context

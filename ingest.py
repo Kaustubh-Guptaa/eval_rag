@@ -9,7 +9,7 @@ from pathlib import Path
 
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
-from langchain_text_splitters import CharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from bs4 import BeautifulSoup
 
 import config
@@ -62,7 +62,11 @@ if __name__ == "__main__":
         json.dump([asdict(r) for r in records], f, indent=2)
 
     # step 2 + 3: parse, chunk, and embed each filing into Chroma (Vector DB)
-    splitter = CharacterTextSplitter(separator = "\n", chunk_size = 1000, chunk_overlap = 150)
+    splitter = RecursiveCharacterTextSplitter(
+        separators=["\n\n", "\n", ". ", " ", ""], 
+        chunk_size = 1000, 
+        chunk_overlap = 150
+    )
 
     openai_embedding = OpenAIEmbeddings(model=config.EMBEDDING_MODEL)
     db = Chroma(
