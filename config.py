@@ -7,9 +7,9 @@ load_dotenv(".env.secrets")
 
 # SEC requires a real name + email in the User-Agent header, otherwise
 # every request comes back as a 403
-EDGAR_USER_AGENT = os.getenv("EDGAR_USER_AGENT", "")
+EDGAR_USER_AGENT = os.environ.get('EDGAR_USER_AGENT')
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 
 # The selected companies being indexed
 TICKERS = ["AAPL", "MSFT", "NVDA", "AMZN", "GOOGL", "META", "TSLA", "JPM"]
